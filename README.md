@@ -1,7 +1,7 @@
 # Earthquake-Interactive-Map
 
 ## Description: 
-- This program reads earthquake data from a live RSS feed (https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.atom) and plots recent earthquake data on a mpa to highlight potential disaster zones. The map will show information such as:
+- This program reads earthquake data from a live RSS feed (https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.atom) and plots recent earthquake data on a map to highlight potential disaster zones. The map will show information such as:
 
      - Cities
          - Hovering will show the city name, country, and population.
