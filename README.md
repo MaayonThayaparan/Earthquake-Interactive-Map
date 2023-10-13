@@ -44,7 +44,7 @@
      - Ensure root directory is selected in ‘Package Explorer’ → Click ‘Project’ in tool bar → ‘Properties’ → ‘Java Compiler’ → select ‘Use compliance from execution environment ‘JavaSE 1.6’... → then click ‘Apply and Close’
 
 
-### Executing Program
+## Executing Program
 
 - If you are working OFFLINE, open file ‘src → project → EarthquakeCityMap.java’ and change the private static variable ‘offline’ to be set to ‘true’ (this will use a copy of the same feed from Aug 7, 2015)
 - If you want to add a city to the display, open the file named “src → data → city-data.json”  and modify the file so it includes your desired city. Ensure you match the format and data of other cities exactly! 
@@ -59,11 +59,11 @@
           - Hold key ‘n’ to filter out all earthquakes in the northern hemisphere
           - Hold key ‘s’ to filter out all earthquakes in the southern hemisphere. 
 
-### Future Optimizations: 
+## Future Optimizations: 
 - When clicking on a city, display a popup menu either on or off the map (off will be easier) which displays a count for the number of nearby earthquakes (within threatCircle) the average magnitude, and most recent earthquake. 
 - Use keyboard events to change which earthquakes are displayed by age or only display cities which are above a certain latitude. etc.
 
-### Unfinished Projects:
+## Unfinished Projects:
 - Starting map visualization for the following:
 
      - Airports and routes.
