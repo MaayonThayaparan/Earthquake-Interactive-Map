@@ -16,7 +16,7 @@
 
 ### Dependencies
 - Tested on Windows 10
-- Tested using Java 1.8 JDK (Java SE 8)
+- Requires Java 1.8 JDK (Java SE 8)
      - Download: https://www.oracle.com/java/technologies/downloads/
           - Tested on version Java SE Development Kit 8u381 → x86 Installer (https://www.oracle.com/java/technologies/downloads/#java8-windows)
           - Create a free Oracle account to download.
