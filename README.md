@@ -10,7 +10,9 @@
          - Hovering will show the magnitude and relative location
          - The size of the marker is relative to the magnitude.
          - The color of the marker determines depth (yellow = shallow [<70m], blue = intermediate [70-300m], red = deep [>300m], X = within past hour)
-         - Shape determines whether land (circle) or ocean (square) quake. 
+         - Shape determines whether land (circle) or ocean (square) quake.
+
+![image](https://github.com/MaayonThayaparan/Earthquake-Interactive-Map/assets/43158629/598335f4-df6f-4ad6-b62a-f5679c8061f0)
 
 ## Getting Started 
 
@@ -49,16 +51,18 @@
 - If you are working OFFLINE, open file ‘src → project → EarthquakeCityMap.java’ and change the private static variable ‘offline’ to be set to ‘true’ (this will use a copy of the same feed from Aug 7, 2015)
 - If you want to add a city to the display, open the file named “src → data → city-data.json”  and modify the file so it includes your desired city. Ensure you match the format and data of other cities exactly! 
 
-- Run the ‘EarthquakeCityMap.java’ file in ‘src → project’. 
+- Run the ‘EarthquakeCityMap.java’ file in ‘src → project’.
+     - Use scroll bar to zoom in/out.
+     - Click and drag screen to move around the map. 
      - Hover over a city marker (triangle) to display the city's name, country, and population.
      - Clicking on a city marker will lead to only that city and earthquakes which affect it being displayed on the map. Clicking once again will bring the rest of the map’s markers back.
      - Hover over an earthquake marker (circle or square) to display the earthquake’s magnitude and region.
-     - Clicking on an earthquake marker will lead to only that earthquake and cities which it affects to be displayed on the map. Clicking once again will bring back the rest of the map’s markers back. 
+     - Clicking on an earthquake marker will lead to only that earthquake and cities which it affects to be displayed on the map. Clicking once again will bring back the rest of the map’s markers back.
      - Filter Keys:
           - Hold key ‘m’ to filter out all earthquakes with magnitude above 5.
           - Hold key ‘n’ to filter out all earthquakes in the northern hemisphere
-          - Hold key ‘s’ to filter out all earthquakes in the southern hemisphere. 
-
+          - Hold key ‘s’ to filter out all earthquakes in the southern hemisphere.
+     
 ## Future Optimizations: 
 - When clicking on a city, display a popup menu either on or off the map (off will be easier) which displays a count for the number of nearby earthquakes (within threatCircle) the average magnitude, and most recent earthquake. 
 - Use keyboard events to change which earthquakes are displayed by age or only display cities which are above a certain latitude. etc.
