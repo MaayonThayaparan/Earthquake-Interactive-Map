@@ -42,23 +42,15 @@
 5. In the 'Package Explorer' click 'Import Projects'
 6. Under 'Git' select 'Projects from Git (with smart import)
 7. Select 'Clone URl'
-8. Input URL: https://github.com/MaayonThayaparan/Text-Editor-and-Generator.git
+8. Input URL: https://github.com/MaayonThayaparan/Earthquake-Interactive-Map.git
 9. Click 'Next' then 'Next' and then 'Finish'
 10. Select the root project folder in the 'Package Explorer' then click 'Project => Properties => Java Compiler'
 11. Select 'Enable project specific settings'
 12. Change the 'Compiler compliance level' to 1.8 then click 'Apply and Close'. Click 'Yes' when prompted. 
 
-### Manual Installation: 
-- Create new Java project
-- Copy+Paste all files into project
-- Add all lib/*.jars to build path
-- Set native library location for jogl.jar. Choose appropriate folder for your OS.
-- Add data/ as src
-
 ### Troubleshooting:
 - Do the following if you get the following error: “java.lang.UnsupportedClassVersionError:”
-     - Ensure root directory is selected in ‘Package Explorer’ → Click ‘Project’ in tool bar → ‘Properties’ → ‘Java Compiler’ → select ‘Use compliance from execution environment ‘JavaSE 1.6’... → then click ‘Apply and Close’
-
+     - Ensure root directory is selected in ‘Package Explorer’ → Click ‘Project’ in tool bar → ‘Properties’ → ‘Java Compiler’ → select ‘Use compliance from execution environment...' → then click ‘Apply and Close’
 
 ## Executing Program
 
