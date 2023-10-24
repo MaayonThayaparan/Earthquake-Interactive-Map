@@ -19,20 +19,34 @@
 ### Dependencies
 - Tested on Windows 10
 - Requires Java 1.8 JDK (Java SE 8)
-     - Download: https://www.oracle.com/java/technologies/downloads/
-          - Tested on version Java SE Development Kit 8u381 → x86 Installer (https://www.oracle.com/java/technologies/downloads/#java8-windows)
-          - Create a free Oracle account to download.
-          - Note down where you save the folder. 
-- Tested on Eclipse
-     - Download: https://www.eclipse.org/downloads/
-     - Need to configure the following:
-          - Open Eclipse → Select ‘Window’ tab → Select ‘Preferences’ → Expand ‘Java’ → Select ‘Installed JREs’ → Click ‘Search’
-          - Navigate to where  you installed the JDK 1.8 directory. Make sure you select the newly installed JDK directory and not the newly installed JRE directory.
-          - After a moment, Eclipse should list a second JRE in the ‘Java → Installed JREs’ window. Select the JRE in the newly installed JDK folder and click ‘Apply and Close’ 
-     - Switch to Java Compiler 1.6 if you get VM problems (see ‘Troubleshooting’ section)
+- Requires Eclipse 
+- Requires e(fx)clipse
 
 ### Installation:
-- Import this folder in Eclipse ('File' -> 'Import' -> 'Existing Projects intoWorkspace', Select this folder, 'Finish')
+
+1. Download Java 1.8 JDK (Java SE 8)
+     - Download at: https://www.oracle.com/java/technologies/downloads/
+     - Tested on version Java SE Development Kit 8u381 → x86 Installer (https://www.oracle.com/java/technologies/downloads/#java8-windows)
+     - Create a free Oracle account to download.
+     - Note down where you save the folder. 
+2. Download Eclipse
+     - Download at: https://www.eclipse.org/downloads/
+3. Open Eclipse
+     - In Eclipse select ‘Window’ tab → Select ‘Preferences’ → Expand ‘Java’ → Select ‘Installed JREs’ → Click ‘Search’
+     - Navigate to where  you installed the JDK 1.8 directory. Make sure you select the newly installed JDK directory and not the newly installed JRE directory.
+     - After a moment, Eclipse should list a second JRE in the ‘Java → Installed JREs’ window. Select the JRE in the newly installed JDK folder and click ‘Apply and Close’
+4. Requires e(fx)clipse
+     - Go to www.eclipse.org/efxclipse/install.html
+     - Under 'For the Ambitious' click 'View details'
+     - Follow the on-screen instructions starting at step 2 or 3
+5. In the 'Package Explorer' click 'Import Projects'
+6. Under 'Git' select 'Projects from Git (with smart import)
+7. Select 'Clone URl'
+8. Input URL: https://github.com/MaayonThayaparan/Text-Editor-and-Generator.git
+9. Click 'Next' then 'Next' and then 'Finish'
+10. Select the root project folder in the 'Package Explorer' then click 'Project => Properties => Java Compiler'
+11. Select 'Enable project specific settings'
+12. Change the 'Compiler compliance level' to 1.8 then click 'Apply and Close'. Click 'Yes' when prompted. 
 
 ### Manual Installation: 
 - Create new Java project
